@@ -1,0 +1,19 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.header{
+    margin:20px;
+}
+span{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: purple;
+    color: white;
+}
+
+.active{
+    background-color: greenyellow;
+}

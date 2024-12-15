@@ -1,0 +1,67 @@
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.model{
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top: 0;
+    height:100%;
+    width: 100%;
+    background-color: goldenrod;
+    padding-top: 150px;
+    animation-name: open-animation-model;
+    animation-duration: 0.5s;
+}
+
+.model-container{
+    display: relative;
+    width: 80%;
+    margin:auto;
+
+}
+
+.header{
+    padding: 4px;
+    background-color: #55A959;
+    text-align:center;
+    color:white;
+}
+
+.close{
+    
+    float: right;
+    font-size:25px;
+}
+
+.body{
+    padding:2px 16px;
+    height: 200px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.footer{
+    padding:2px 16px;
+    background-color: #55A959;
+    text-align:center;
+    color:white;
+}
+
+@keyframes open-animation-model{
+    from{
+        top:-250px;
+        opacity: 0;
+    }
+    to{
+        top:0px;
+        opacity: 1;
+    }
+}
