@@ -1,6 +1,6 @@
 import { createRoot } from "react-dom/client";
-import AutoComplete from "./apps/AutoComplete";
+import TicTacToe from "./apps/TicTacToe";
 
 createRoot(document.getElementById("root")).render(
-	<AutoComplete/>
+	<TicTacToe/>
 );
